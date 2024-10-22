@@ -1,14 +1,14 @@
-import './App.css'
-import Counter from './components/Counter'
+import React from 'react'
+import ParticlesBackground from './components/ParticlesBackground'
+// import Counter from './components/Counter'
 
 function App() {
-
   return (
-    <>
     <div>
-       <Counter/>
+      <ParticlesBackground/>
+    
+      {/* <Counter/> */}
     </div>
-    </>
   )
 }
 
